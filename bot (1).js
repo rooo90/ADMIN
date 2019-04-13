@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const devs = ['307486799645900800','307486799645900800'];
+const devs = ['526947416658935810','526947416658935810'];
 var prefix = "!";
 const adminprefix = "!"
 const db = require('quick.db');
@@ -2775,7 +2775,7 @@ client.on('message', message => {
         let embed = new Discord.RichEmbed()
         .setAuthor(` ${message.author.username} `, message.author.avatarURL)      
         .setTitle(`:small_orange_diamond: click here `)
-        .setURL(`https://discordapp.com/oauth2/authorize?client_id=471464656242737183&permissions=2080898225&scope=bot`)
+        .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=553840110169489420&permissions=8&scope=bot`)
         .setThumbnail(" https://cdn.discordapp.com/avatars/377904849783750667/6c76e412f18c142dfd711d05fb363869.png?size=2048")        
      message.channel.sendEmbed(embed);
        }
@@ -2825,7 +2825,7 @@ client.on('message', message => {
      let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#9B59B6")
-  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/yDHQZhC**")
+  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/rhxRZbY**")
      
      
   message.channel.sendEmbed(embed);
@@ -2927,7 +2927,7 @@ client.on("message", (message) => {
 });  
 
 const sWlc = {}
-const premium = ['389090790984515594']
+const premium = ['307486799645900800']
 client.on('message', message => {
 var prefix = "!";
 if(message.channel.type === "dm") return;
